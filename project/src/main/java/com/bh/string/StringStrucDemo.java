@@ -1,11 +1,11 @@
-package com.bh.String;
+package com.bh.string;
 
 import org.junit.Test;
 
 public class StringStrucDemo {
     @Test
-    public  void stringStrucDemoTest(String[] args) {
-        String string01=new String();
+    public  void stringStrucDemoTest() {
+        String string01= "";
         System.out.println("string01:"+string01);
 
         byte[] bytes={1,2,3,4,5,6};
@@ -22,7 +22,7 @@ public class StringStrucDemo {
         System.out.println("string05:"+string05);
         System.out.println("string05.length:"+string03.length());
 
-        String string06=new String("String Test");
+        String string06= "String Test";
         System.out.println("String06:"+string06);
     }
 }

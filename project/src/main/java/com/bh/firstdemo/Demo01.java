@@ -1,5 +1,6 @@
 package com.bh.firstdemo;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class Demo01 {
@@ -27,6 +28,19 @@ public class Demo01 {
         System.out.println("array数组排序前:"+ Arrays.toString(array));
         demo01.sort(array);
         System.out.println("array数组排序后:"+Arrays.toString(array));
+
+        System.out.println("array数组add前:"+ Arrays.toString(array));
+        demo01.add(array);
+        System.out.println("array数组add后:"+Arrays.toString(array));
+
+        double double1=0.09;
+        double double2=0.01;
+        System.out.println(double1+double2);
+
+        BigDecimal bigDecimal1=new BigDecimal("0.09");
+        BigDecimal bigDecimal2=new BigDecimal("0.01");
+        System.out.println(bigDecimal1.add(bigDecimal2));
+
 
     }
 
@@ -58,6 +72,15 @@ public class Demo01 {
                 }
             }
         }
+    }
+
+    public void add(int[] array){
+        //遍历数组
+        for(int i = 0;i<array.length;i++){
+            array[i] += 10;
+        }
+        //打印
+        System.out.println("add()方法内array:"+Arrays.toString(array));
     }
 
 }
