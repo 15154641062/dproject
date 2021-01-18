@@ -59,11 +59,17 @@ public class UserDaoImpl implements IUserDao {
             System.out.println("请输入密码:");
             String password=scanner.nextLine();
             User user=new User();
-            System.out.println(username+password);
-            user.setUserName(username);
-            user.setPassWord(password);
-            writeFile(user);
-            System.out.println("注册成功！");
+
+            if(username.contains("//$")){
+                System.out.println("不能输入$符号!");
+            }else{
+                System.out.println(username+password);
+                user.setUserName(username);
+                user.setPassWord(password);
+                writeFile(user);
+                System.out.println("注册成功！");
+            }
+
         }else{
             System.out.println("该用户名已存在！");
         }

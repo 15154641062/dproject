@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad892201-bb36-4c47-aa1b-b48b2ada1cd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoginDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bh/test/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bh/dao/IUserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bh/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bh/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/bh/test/LoginTest.class" afterDir="false" />
+    <list default="true" id="ad892201-bb36-4c47-aa1b-b48b2ada1cd2" name="Default Changelist" comment="20210118">
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/LoginDemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bh/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bh/utils/GuessNumGame.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyServlet/.idea/artifacts/MyServlet_war_exploded.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyServlet/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyServlet/.idea/modules.xml" afterDir="false" />
@@ -177,6 +165,10 @@
       <change afterPath="$PROJECT_DIR$/../project/web/WEB-INF/classes/com/bh/throwable/ThrowableDemo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project/web/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bh/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bh/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bh/dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bh/test/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bh/test/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project/MyProject01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project/MyProject01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project/src/main/java/com/bh/collection/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project/src/main/java/com/bh/collection/ListDemo.java" afterDir="false" />
@@ -227,6 +219,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -282,42 +277,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610933050305</updated>
-      <workItem from="1610933053168" duration="6444000" />
+      <workItem from="1610933053168" duration="10225000" />
     </task>
+    <task id="LOCAL-00001" summary="20210118">
+      <created>1610939593763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610939593763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20210118">
+      <created>1610939828807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610939828807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20210118" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210118" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="229" key="#Notifications" timestamp="1610941749761">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="574" y="229" key="#Notifications/0.0.1376.733@0.0.1376.733" timestamp="1610941749761" />
+    <state x="169" y="0" key="#Project_Structure" timestamp="1610940779628">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="169" y="0" key="#Project_Structure/0.0.1376.733@0.0.1376.733" timestamp="1610940779628" />
     <state x="494" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1610934939665">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
     <state x="494" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1376.733@0.0.1376.733" timestamp="1610934939665" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1610938968689">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1610941524752">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1376.733@0.0.1376.733" timestamp="1610938968689" />
-    <state x="560" y="260" key="Github.ShareDialog" timestamp="1610939425379">
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1376.733@0.0.1376.733" timestamp="1610941524752" />
+    <state x="131" y="56" key="DiffContextDialog" timestamp="1610940927849">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
-    <state x="560" y="260" key="Github.ShareDialog/0.0.1376.733@0.0.1376.733" timestamp="1610939425379" />
-    <state width="1333" height="180" key="GridCell.Tab.0.bottom" timestamp="1610939481200">
+    <state x="131" y="56" key="DiffContextDialog/0.0.1376.733@0.0.1376.733" timestamp="1610940927849" />
+    <state x="560" y="260" key="Github.ShareDialog" timestamp="1610940603689">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
-    <state width="1333" height="180" key="GridCell.Tab.0.bottom/0.0.1376.733@0.0.1376.733" timestamp="1610939481200" />
-    <state width="1333" height="180" key="GridCell.Tab.0.center" timestamp="1610939481200">
+    <state x="560" y="260" key="Github.ShareDialog/0.0.1376.733@0.0.1376.733" timestamp="1610940603689" />
+    <state width="1333" height="180" key="GridCell.Tab.0.bottom" timestamp="1610940830153">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
-    <state width="1333" height="180" key="GridCell.Tab.0.center/0.0.1376.733@0.0.1376.733" timestamp="1610939481200" />
-    <state width="1333" height="180" key="GridCell.Tab.0.left" timestamp="1610939481200">
+    <state width="1333" height="180" key="GridCell.Tab.0.bottom/0.0.1376.733@0.0.1376.733" timestamp="1610940830153" />
+    <state width="1333" height="180" key="GridCell.Tab.0.center" timestamp="1610940830153">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
-    <state width="1333" height="180" key="GridCell.Tab.0.left/0.0.1376.733@0.0.1376.733" timestamp="1610939481200" />
-    <state width="1333" height="180" key="GridCell.Tab.0.right" timestamp="1610939481200">
+    <state width="1333" height="180" key="GridCell.Tab.0.center/0.0.1376.733@0.0.1376.733" timestamp="1610940830153" />
+    <state width="1333" height="180" key="GridCell.Tab.0.left" timestamp="1610940830153">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
-    <state width="1333" height="180" key="GridCell.Tab.0.right/0.0.1376.733@0.0.1376.733" timestamp="1610939481200" />
+    <state width="1333" height="180" key="GridCell.Tab.0.left/0.0.1376.733@0.0.1376.733" timestamp="1610940830153" />
+    <state width="1333" height="180" key="GridCell.Tab.0.right" timestamp="1610940830153">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state width="1333" height="180" key="GridCell.Tab.0.right/0.0.1376.733@0.0.1376.733" timestamp="1610940830153" />
     <state width="1333" height="225" key="GridCell.Tab.1.bottom" timestamp="1610938363721">
       <screen x="0" y="0" width="1376" height="733" />
     </state>
@@ -334,5 +360,17 @@
       <screen x="0" y="0" width="1376" height="733" />
     </state>
     <state width="1333" height="225" key="GridCell.Tab.1.right/0.0.1376.733@0.0.1376.733" timestamp="1610938363721" />
+    <state x="169" y="0" key="SettingsEditor" timestamp="1610940738050">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="169" y="0" key="SettingsEditor/0.0.1376.733@0.0.1376.733" timestamp="1610940738050" />
+    <state x="281" y="100" key="Vcs.Push.Dialog.v2" timestamp="1610939838212">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="281" y="100" key="Vcs.Push.Dialog.v2/0.0.1376.733@0.0.1376.733" timestamp="1610939838212" />
+    <state x="351" y="54" width="672" height="678" key="search.everywhere.popup" timestamp="1610941006403">
+      <screen x="0" y="0" width="1376" height="733" />
+    </state>
+    <state x="351" y="54" width="672" height="678" key="search.everywhere.popup/0.0.1376.733@0.0.1376.733" timestamp="1610941006403" />
   </component>
 </project>
