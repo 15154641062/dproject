@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config/>
+<!--    <context:component-scan base-package="com.bh.myspring"></context:component-scan>-->
+
+    <bean name="User1" class="com.bh.myspring.pojo.User" init-method="init" destroy-method="destroy" scope="prototype">
+        <property name="name" value="张三"/>
+        <property name="age" value="18"/>
+    </bean>
+
+    <bean name="User2" class="com.bh.myspring.pojo.User" init-method="init" destroy-method="destroy" scope="prototype">
+        <property name="name" value="李四"/>
+        <property name="age" value="22"/>
+    </bean>
+
+<!--    &lt;!&ndash;    <bean class="com.bh.myspring.processor.MyBeanPostProcessor" />&ndash;&gt;-->
+
+<!--    <bean name="Animal" class="com.bh.myspring.entity.Animal">-->
+<!--        <property name="cat">-->
+<!--            <bean name="Cat" class="com.bh.myspring.entity.Cat"></bean>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <bean name="Vehicle" class="com.bh.myspring.entity.Vehicle"></bean>
+
+    <bean name="Car" class="com.bh.myspring.entity.Car"></bean>
+
+
+</beans>
